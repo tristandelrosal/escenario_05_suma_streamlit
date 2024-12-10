@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("¡Calculadora!")
+st.title("Calculadora")
 
 st.write("Esto es una calculadora muy sencilla que suma dos números.")
 
@@ -13,4 +13,7 @@ number2 = st.number_input(
 )
 
 result = number + number2
-st.write("El resultado de la suma es: ", result)
+if result:
+     st.write("El resultado de la suma es: ", result)
+else:
+     st.write("Introduce un número para sumar")
