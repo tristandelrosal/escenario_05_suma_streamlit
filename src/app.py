@@ -5,11 +5,11 @@ st.title("Calculadora")
 st.write("Esto es una calculadora muy sencilla que suma dos números.")
 
 number = st.number_input(
-    "Insert a number", value=None, placeholder="Escribe un numero..."
+    "Introduzca un valor", value=None, placeholder="Introduzca un valor..."
 )
 
 number2 = st.number_input(
-    "Insert a second number", value=None, placeholder="Escribe un numero..."
+    "Introduzca otro valor", value=None, placeholder="Introduzca otro valor..."
 )
 if number is None:
   number = 0
